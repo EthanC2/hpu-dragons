@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HintComponent } from './hint/hint.component';
+import { LevelSelectComponent } from './level-select/level-select.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    HintComponent,
+    LevelSelectComponent,
   ],
   imports: [
     BrowserModule,

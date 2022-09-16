@@ -1,6 +1,18 @@
 <app-navbar></app-navbar>
 
-<h1>Here Be Dragons!</h1>
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>
+<div class="grid overflow-hidden grid-cols-5 grid-rows-6 gap-3 p-3 h-screen">
+	<!-- Hint -->
+    <div id="hint" class="box row-span-2 col-span-4">
+        <app-hint></app-hint>
+    </div>
+
+    <!-- Level Select -->
+	<div id="level-select" class="box row-span-6">
+        <app-level-select></app-level-select>
+    </div>
+
+    <!-- Geoselect -->
+	<div id="game" class="box row-span-4 col-span-4">
+        <p>Game</p>
+    </div>
+</div>
