@@ -2,17 +2,19 @@
 
 <div class="grid overflow-hidden grid-cols-5 grid-rows-6 gap-3 p-3 h-screen">
 	<!-- Hint -->
-    <div class="box row-span-2 col-span-4 flex">
+    <div class="row-span-2 col-span-4">
         <app-clue></app-clue>
     </div>
 
     <!-- Level Select -->
-	<div class="box row-span-6">
+	<div class="row-span-6">
         <app-level-select></app-level-select>
     </div>
 
     <!-- Geoselect -->
 	<div class="box row-span-4 col-span-4">
-        <p>Game</p>
+        <div class="grid">
+            <app-geomap></app-geomap>
+        </div>
     </div>
 </div>

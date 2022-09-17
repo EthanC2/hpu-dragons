@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LevelSelectComponent } from './level-select/level-select.component';
 import { ClueComponent } from './clue/clue.component';
+import { GeomapComponent } from './geomap/geomap.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ClueComponent } from './clue/clue.component';
     NavbarComponent,
     LevelSelectComponent,
     ClueComponent,
+    GeomapComponent,
   ],
   imports: [
     BrowserModule,
