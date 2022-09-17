@@ -1,1 +1,16 @@
-<p>level-select works!</p>
+<div id="level-select-header" class="border-b-2 pt-2">
+    <p class="text-center font-serif text-xl h-auto">Level Select</p>
+</div>
+
+<!--
+<div class="inline-flex flex-col rounded-md shadow-sm" role="group">
+    <button type="button" *ngFor="let destination of destinations" 
+    class="py-2 px-4 font-medium w-auto border-y-2">
+      {{destination}}
+    </button>
+</div>
+-->
+
+<ol id="level-select">
+    <li class="font-serif py-3 border-b-2 text-lg text-center" *ngFor="let destination of destinations"><button class="w-auto cursor-pointer">{{destination}}</button></li>
+</ol>

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HintComponent } from './hint.component';
+import { ClueComponent } from './clue.component';
 
-describe('HintComponent', () => {
-  let component: HintComponent;
-  let fixture: ComponentFixture<HintComponent>;
+describe('ClueComponent', () => {
+  let component: ClueComponent;
+  let fixture: ComponentFixture<ClueComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HintComponent ]
+      declarations: [ ClueComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HintComponent);
+    fixture = TestBed.createComponent(ClueComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
