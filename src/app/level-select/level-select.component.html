@@ -1,11 +1,11 @@
 <div class="box">
-    <div id="level-select-header" class="border-b-2 py-2">
+    <div id="level-select-header" class="border-b-2 py-3">
         <p class="text-center font-serif text-2xl h-auto">Level Select</p>
     </div>
     
     <ol id="level-select">
-        <li class="font-serif py-3 border-b-2 text-lg text-center flex" *ngFor="let destination of destinations">
-            <button class="w-auto cursor-pointer grow self-stretch">{{destination}}</button>
+        <li class="font-serif py-3 border-b-2 text-xl text-center flex" *ngFor="let destination of destinations">
+            <button class="w-auto cursor-pointer grow self-stretch" (click)="log('hello')">{{destination}}</button>
         </li>
     </ol>
 </div>

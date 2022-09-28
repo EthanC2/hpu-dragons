@@ -7,3 +7,13 @@
 		min-h-full
 		rounded;
 }
+
+.rbox {
+    @apply
+    bg-red-800
+		text-gray-100
+		min-w-full
+		h-32
+		min-h-full
+		rounded;
+}

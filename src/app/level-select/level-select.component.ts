@@ -26,4 +26,8 @@ export class LevelSelectComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  log(...msg: any[]) {
+    console.log(msg)
+  }
+
 }
